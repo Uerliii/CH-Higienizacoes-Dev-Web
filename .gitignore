@@ -1,0 +1,21 @@
+# CH Higienizações — PHP/MVC
+
+# Ignora o .env real (nunca subir chaves para repositório)
+.env
+.env.example
+
+# Logs
+storage/logs/*.log
+
+# Cache do sistema operacional
+Thumbs.db
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Node (não é mais necessário, mas por segurança)
+node_modules/
